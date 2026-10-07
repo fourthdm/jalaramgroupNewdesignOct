@@ -1,0 +1,356 @@
+<div class="aboutbackground">
+    <div class="container">
+        <!-- Top Heading -->
+        <div class="heading-area">
+            <p class="small-title">
+                <span></span>GET IN TOUCH
+            </p>
+            <h1> Schedule a Consultation or
+                <span> Product.</span>
+            </h1>
+            <br>
+            <p class="desc">
+                Share your Product requirements. Our engineering team responds within 24hours with relevant
+                technical inputs from the very first interaction.
+            </p>
+        </div>
+
+        <div class="credentials">
+            <div> <i class="bi bi-shield-check"></i> No-obligation consultation</div>
+            <div> <i class="bi bi-clock"></i> Response within 24 hours</div>
+            <div> <i class="bi bi-people"></i> Direct interaction with our engineering team</div>
+        </div>
+
+    </div>
+</div>
+<br><br><br>
+
+<section class="container" id="Contactus" data-aos="fade-up">
+    <div class="row">
+        <div class="col-md-7">
+            <p class="medium-title">
+                <span></span>PRODUCT ENQUIRY
+            </p>
+            <span class="paragraph">Tell us about <span class="share">your product.</span> </span>
+            <br><br>
+            <p class="para">The more details you share, the more precise our response will be.</p>
+            <br>
+            <div class="forms">
+                <form class="contact-form" (submit)="sendEmail($event)">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label for="name">YOUR NAME <span class="required">*</span></label>
+                            <input type="text" name="name" id="name" placeholder="Full Name" ngModel #name="ngModel"
+                                [class.invalid-field]="name.invalid && (name.touched)" required>
+                            <br><br>
+                        </div>
+
+
+                        <div class="col-md-12">
+                            <label for="MobileNumber">MOBILE NUMBER <span class="required">*</span> </label><br>
+                            <input type="text" name="MobileNumber" id="MobileNumber" placeholder="+91-----------"
+                                ngModel #MobileNumber="ngModel"
+                                [class.invalid-field]="MobileNumber.invalid && (MobileNumber.touched)" required>
+                            <span style="font-size: 12px;">We'll contact you via call or WhatsApp.</span> <br> <br>
+                        </div><br>
+
+                        <div class="col-md-12">
+                            <label for="EmailAddress">EMAIL ADDRESS <span>(optional)</span> </label><br>
+                            <input type="text" name="EmailAddress" id="EmailAddress" placeholder="name@company.com">
+                            <br><br>
+                        </div><br>
+
+                        <div class="col-md-12">
+                            <label for="Details">MESSAGE<span class="required">*</span></label><br>
+                            <textarea name="Project details" name="Details" id="Details" rows="4" cols="50"
+                                placeholder="e.g., Any Message" ngModel #Details="ngModel"
+                                [class.invalid-field]="Details.invalid && (Details.touched)" required></textarea>
+                            <br>
+                        </div>
+
+                    </div>
+                    <br>
+
+
+
+                    <br><br>
+                    <div class="laptopview">
+                        <div class="d-flex">
+                            <button class="btn btn-orange" type="submit"><b style="font-size: 16px;"> Send Enquiry</b>
+                                <i class="bi bi-arrow-right enquirybtn"></i></button>
+                            <!-- <button class="btn-orange" type="submit" value="Send">
+                                Send Enquiry <i class="bi bi-arrow-right enquirybtn"></i></button> -->
+
+                            <!-- <span class="text-start" type="submit">
+                             </span> <i class="bi bi-arrow-right enquirybtn"></i> -->
+                            <span class="infotext"><i class="bi bi-lock"></i> Your information will remain confidential.
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="mobileview">
+                        <button class="btn-orange" type="submit">
+                            <span class="text-start">
+                                Send Enquiry
+                            </span> <i class="bi bi-arrow-right enquirybtn"></i>
+                        </button>
+                        <p class="infotext"> <i class="bi bi-lock"></i> Your information will remain confidential.
+                        </p>
+                    </div>
+
+
+                </form>
+            </div>
+            <br><br>
+        </div><br>
+
+        <div class="col-md-5">
+            <p class="medium-title">
+                <span></span>DIRECT CONTACT
+            </p>
+            <div class="laptopview">
+                <span class="paragraph">Perfer to <span class="share"> speak directly?</span> </span>
+                <br><br>
+            </div>
+
+            <div class="mobileview">
+                <span class="perferspeak">Perfer to<span class="share"> speak directly?</span> </span>
+            </div>
+
+            <p class="para">Available Monday to Saturday, 9 AM - 7 PM IST.</p>
+            <br>
+            <div class="card">
+                <div class="card-body">
+                    <div class="contact">
+                        <div class="icons">
+                            <p class="telephone">
+                                <i class="bi bi-telephone telephoneicon"></i>
+                            </p>
+                        </div>
+                        <div class="">
+                            <p> <span class="headcontent">CALL US</span> <br>
+                                <span class="mobile">+91 80100 89172</span>
+                                <br>
+                                <span class="subline">Speak directly with our engineering team</span>
+                            </p>
+                            <p class="call"><a href="tel:+918010089172" class="call">
+                                    CALL NOW <i class="bi bi-arrow-right"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div> <br>
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="contact">
+                        <div class="icons">
+                            <p class="telephone">
+                                <i class="bi bi-whatsapp"></i>
+                            </p>
+                        </div>
+                        <div class="">
+                            <p> <span class="headcontent">WHATSAPP US </span> <br>
+                                <span class="mobile">+91 80100 89172</span>
+                                <br>
+                                <span class="subline">Quick reply during working hours.</span>
+                            </p>
+                            <p class="call"><a
+                                    href="https://wa.me/+918010089172?text=Hi SVESPL, I’d like to discuss a product."
+                                    data-mdb-toggle="tooltip" data-mdb-placement="top" aria-label="Read more about"
+                                    target="_blank" title="Connect Through Whatsapp" class="call"> OPEN WHATSAPP <i
+                                        class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="contacts">
+                        <div class="icons">
+                            <p class="telephone">
+                                <i class="bi bi-envelope"></i>
+                            </p>
+                        </div>
+                        <div class="">
+                            <p> <span class="headcontent">EMAIL US </span><br>
+                                <span class="mobile">sales@jalaramgroup.info</span>
+                                <br>
+                                <span class="subline">For products briefs, drawings or detailed enquiries.</span>
+                            </p>
+                            <p class="call"><a href="https://mail.google.com/mail/compose=new" target="_blank">
+                                    SEND EMAIL <i class="bi bi-arrow-right"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div class="responsesection">
+                <div class="text">
+                    <span class="response">RESPONSE COMMITMENT</span>
+                    <P class="subline">We respond within <b style="color: black;">24 hours</b>. For urgent requirements,
+                        please call or
+                        WhatsApp directly.
+                        All enquiries are handled by our engineering team.</P>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<br> <br>
+<div class="headquarts" data-aos="fade-up">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="medium-title">
+                    <span></span>OUR LOCATION
+                </p>
+                <span class="paragraph"> Headquartered in <span class="share">Pune.</span> </span>
+                <br><br>
+                <div class="locations">
+                    <i class="bi bi-geo-alt"></i> <span>JAI JALARAM INDUSTRIES.Gala No. B43, B38, B56,
+                        B29, B46, Pavana Industrial Complex, T-204, MIDC Bhosari, Pune -411026 Meaharashtra,
+                        INDIA.</span>
+                </div>
+            </div><br>
+        </div>
+        <br>
+
+        <div class="container">
+            <p class="contactoff">Offices</p>
+
+            <div class="row">
+                <div class="d-flex align-items-start">
+                    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                        aria-orientation="vertical">
+                        <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                            aria-selected="true">UNIT I</button>
+
+                        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                            aria-selected="false">UNIT II</button>
+
+                        <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled"
+                            aria-selected="false">UNIT III</button>
+
+                        <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                            aria-selected="false">UNIT IV</button>
+
+                        <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                            aria-selected="false">UNIT V</button>
+                    </div>
+
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                            aria-labelledby="v-pills-home-tab" tabindex="0">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d30245.159579707004!2d73.8283373677081!3d18.635032894615403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1730809325941!5m2!1sen!2sin"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                            aria-labelledby="v-pills-profile-tab" tabindex="0">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.891528782967!2d73.82184068587445!3d18.623948020874845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b86399108539%3A0x39b892587e53ba30!2sPlot%20No.W%2C%2035%2C%20T%20Block%2C%20MIDC%2C%20Bhosari%2C%20Pune%2C%20Pimpri-Chinchwad%2C%20Maharashtra%20411026!5e0!3m2!1sen!2sin!4v1730809378954!5m2!1sen!2sin"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+
+                        <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel"
+                            aria-labelledby="v-pills-disabled-tab" tabindex="0">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60466.54386102626!2d73.76204015032418!3d18.7016987518426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b76280a290b9%3A0x5f723e56cf0433c3!2sAradhana%20Co-op%20Housing%20Society%2C%20Mata%20Ramabai%20Bhimrao%20Ambedkar%20Marg%2C%20Scheme%20No.%2010%2C%20Sector%20Number%2021%2C%20Yamuna%20Nagar%2C%20Nigdi%2C%20Pimpri-Chinchwad%2C%20Maharashtra%20411044!5e0!3m2!1sen!2sin!4v1730809432567!5m2!1sen!2sin"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                            aria-labelledby="v-pills-messages-tab" tabindex="0"> <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60466.54386102626!2d73.76204015032418!3d18.7016987518426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b76280a290b9%3A0x5f723e56cf0433c3!2sAradhana%20Co-op%20Housing%20Society%2C%20Mata%20Ramabai%20Bhimrao%20Ambedkar%20Marg%2C%20Scheme%20No.%2010%2C%20Sector%20Number%2021%2C%20Yamuna%20Nagar%2C%20Nigdi%2C%20Pimpri-Chinchwad%2C%20Maharashtra%20411044!5e0!3m2!1sen!2sin!4v1730809432567!5m2!1sen!2sin"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab" tabindex="0"> <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60466.54386102626!2d73.76204015032418!3d18.7016987518426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b76280a290b9%3A0x5f723e56cf0433c3!2sAradhana%20Co-op%20Housing%20Society%2C%20Mata%20Ramabai%20Bhimrao%20Ambedkar%20Marg%2C%20Scheme%20No.%2010%2C%20Sector%20Number%2021%2C%20Yamuna%20Nagar%2C%20Nigdi%2C%20Pimpri-Chinchwad%2C%20Maharashtra%20411044!5e0!3m2!1sen!2sin!4v1730809432567!5m2!1sen!2sin"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div class="contactlastsection" data-aos="fade-up">
+    <div class="container">
+
+        <div class="row">
+            <div class="">
+                <div class="heading-area">
+                    <p class="small-title">
+                        <span></span>GET STARTED
+                    </p>
+
+                    <p class="h1"> <span class="plan">Planning an HVAC or MEP Project? </span>
+                        <span class="start">Start with a Site Assessment.</span>
+                    </p>
+                    <p class="desc">Share your project scope and our engineering team will visit your site,
+                        conduct a detailed survey and return with a feasibility report and indicative budget.
+                    </p>
+                </div>
+            </div><br>
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-6"><br><br>
+                        <div> <i class="bi bi-shield-check"></i> <span class="assessmentcontent"> No-obligation site
+                                assessment</span></div>
+                        <div> <i class="bi bi-clock"></i> <span class="assessmentcontent"> Response within working
+                                hours</span></div> <br><br>
+                    </div><br>
+
+                    <div class="col-md-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <span class="speak">SPEAK WITH ENGINEERING</span> <br>
+                                <a href="tel:+918010089172" class="mobilenumbers"><i class="bi bi-telephone"></i>
+                                    +91 80100 89172</a>
+                                <br>
+                                <span class="times">Mon-Sat 9:00 AM - 7:00 PM IST</span>
+                                <br><br>
+                                <p class="btn-oranges">
+                                    <span class="text-start" (click)="scrollToSection('Contactus')">
+                                        Schedule a Consultation
+                                    </span> <i class="bi bi-arrow-right enquirybtn"></i>
+                                </p>
+                                <p class="btn-chat">
+                                    <span class="text-start">
+                                        <i class="bi bi-chat"></i> <a
+                                            href="https://wa.me/+918010089172?text=Hi Jalaram Group, I’d like to discuss a product."
+                                            data-mdb-toggle="tooltip" data-mdb-placement="top"
+                                            aria-label="Read more about" target="_blank"
+                                            title="Connect Through Whatsapp"> Chat on WhatsApp </a>
+                                    </span> <i class="bi bi-arrow-right enquirybtn" style="color: black;"></i>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div><br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

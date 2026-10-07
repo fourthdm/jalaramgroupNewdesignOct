@@ -1,0 +1,647 @@
+@font-face {
+    font-family: 'FontCustom';
+    src: url('/assets/Fonts/WorkSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'maintext';
+    src: url('/assets/Fonts/Oswald-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Paragraphtext';
+    src: url('/assets/Fonts/WorkSans-Regular.ttf');
+}
+
+* {
+    font-family: 'FontCustom';
+}
+
+.aboutbackground {
+    background-color:rgb(31, 31, 31);
+    /* background-color: rgba(17, 24, 34); */
+    padding: 7%;
+}
+
+.heading-area h1 {
+    /* font-size: 4em;
+    font-weight: 800;
+    line-height: 1.1;
+   
+    color: white; */
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 72px;
+
+    color: white;
+    letter-spacing: -0.02em;
+    max-width: 800px;
+}
+
+.heading-area h1 span {
+    color: #ea5f2c;
+}
+
+.small-title {
+    color: #ea5f2c;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+.heading-area .desc {
+    color: white;
+    /* padding: 0% 25% 0% 0%; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 620px;
+}
+
+.small-title span {
+    width: 32px;
+    height: 1px;
+    background: #ea5f2c;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.credentials {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 35px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fbfdff;
+    /* border-top: 1px solid rgba(255, 255, 255, .08); */
+    padding-top: 30px;
+
+}
+
+.bi {
+    color: #ea5f2c;
+}
+
+.medium-title {
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.22em;
+    font-weight: 100;
+    color: #475569;
+
+}
+
+.medium-title span {
+    width: 32px;
+    height: 1px;
+    background: #ea5f2c;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 35px;
+}
+
+.contacts {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 35px;
+}
+
+.icons {
+    border: 1px solid rgba(206, 203, 203, 0.404);
+    background-color: rgba(206, 203, 203, 0.315);
+    height: 50px;
+    width: 50px;
+}
+
+.telephoneicon {
+    font-size: 24px;
+}
+
+.bi-whatsapp {
+    font-size: 24px;
+}
+
+.bi-envelope {
+    font-size: 24px;
+}
+
+.telephone {
+    padding: 10% 5% 5% 25%;
+}
+
+.icons:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+.mobile {
+    font-size: 23px;
+    font-weight: 600;
+    color: #000;
+}
+
+.mobile:hover {
+    font-size: 23px;
+    font-weight: 600;
+    color: #ea5f2c;
+}
+
+a {
+    color: #000;
+}
+
+.bi-arrow-right {
+    color: #000;
+    font-weight: 550;
+}
+
+.call {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    color: #000;
+    letter-spacing: 0.22em;
+    font-weight: 700;
+}
+
+.call:hover {
+    color: #ea5f2c;
+}
+
+.headcontent {
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    line-height: 16px;
+
+    font-weight: 500;
+    color: #475569;
+}
+
+.subline {
+    font-size: 14px;
+    line-height: 22px;
+
+}
+
+.card {
+    border: 1px solid rgba(206, 203, 203, 0.445);
+    border-radius: 0%;
+}
+
+.forms {
+    padding-right: 5%;
+}
+
+label {
+    font-size: 11px;
+
+    font-weight: 400;
+    letter-spacing: 0.22em;
+    line-height: 16px;
+}
+
+input {
+    width: 100%;
+    height: 48px;
+}
+
+::placeholder {
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.note {
+    font-size: 11px;
+}
+
+.btn-orange {
+    background: #ea5f2c;
+    color: #fff;
+    border: 1px solid #ea5f2c;
+    /* padding: 18px 34px; */
+    font-weight: 600;
+    /* margin-right: 1%; */
+    width: 40%;
+    /* padding: 2% 5% 2% 5%; */
+    border-radius: 5px;
+}
+
+.btn-orange:hover {
+    cursor: pointer;
+    background: #D85F18;
+}
+
+.btn-oranges {
+    background: #ea5f2c;
+    color: #fff;
+    /* padding: 18px 34px; */
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 20px;
+    /* margin-right: 1%; */
+    width: 100%;
+    padding: 3% 5% 3% 5%;
+    border-radius: 0%;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-oranges:hover {
+    background: #D85F18;
+    color: #FFFFFF;
+    line-height: 20px;
+    cursor: pointer;
+    box-shadow: 0 1px 0 0 rgba(22, 30, 42, 0.04);
+}
+
+.btn-oranges .text-start {
+    font-size: 14px;
+    letter-spacing: 0.02em;
+}
+
+
+
+.btn-chat {
+    line-height: 20px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid #A8AEB8;
+    background-color: #FFFFFF;
+    padding: 3% 5% 3% 5%;
+}
+
+.btn-chat a {
+    color: #161E2A;
+    font-weight: 500;
+}
+
+.btn-chat:hover {
+    border: 1px solid #161E2A;
+    background-color: #f8f9fa;
+}
+
+.enquirybtn {
+    float: right;
+    color: white;
+    font-size: larger;
+}
+
+.infotext {
+    padding: 1% 0% 0% 5%;
+}
+
+.responsesection {
+    border-left: 2px solid #ea5f2c;
+}
+
+.responsesection .text {
+    padding-left: 5%;
+}
+
+.response {
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    line-height: 16px;
+    font-weight: 400;
+    color: #ea5f2c;
+}
+
+.paragraph {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.share {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #ea5f2c;
+}
+
+.para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #546275;
+}
+
+textarea {
+    width: 100%;
+}
+
+.headquarts {
+    background-color: #F8FAFC;
+    padding: 5%;
+}
+
+.bi-geo-alt {
+    font-size: larger;
+}
+
+.locations {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+}
+
+.contactlastsection {
+    background-color: #1f1f1f;
+    /* background-color: #141414f1; */
+    /* background-color: rgb(78, 78, 77); */
+    /* background-color: rgba(17, 24, 34); */
+    padding: 5%;
+}
+
+.contactlastsection .medium-title {
+    color: #ea5f2c;
+}
+
+.heading-area .h1 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    font-weight: 800;
+    max-width: 720px;
+}
+
+.plan {
+    color: white;
+}
+
+.start {
+    color: #ea5f2c;
+}
+
+.speak {
+    color: #ea5f2c;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.22em;
+    font-weight: 400;
+
+}
+
+.mobilenumbers {
+    font-size: 28px;
+    font-weight: 600;
+    color: #000;
+}
+
+.mobilenumbers:hover {
+    color: #ea5f2c;
+}
+
+.mobilenumbers .bi {
+    font-size: 28px;
+    font-weight: 600;
+    color: #ea5f2c;
+}
+
+.times {
+    font-size: 14px;
+}
+
+
+.assessmentcontent {
+    /* color: #eeeff0; */
+    color: #A8AEB8;
+    font-size: 16px;
+    padding-left: 7px;
+    line-height: 26px;
+}
+
+@media(max-width:1200px) {
+
+    .process-row {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .process-box {
+        width: 48%;
+    }
+
+    .heading-area h1 {
+        font-size: 46px;
+    }
+
+    .desc {
+        font-size: 18px;
+    }
+
+    .process-box h3 {
+        font-size: 28px;
+    }
+
+    .process-box p {
+        font-size: 17px;
+    }
+}
+
+@media(max-width:768px) {
+
+    .methodology-section {
+        padding: 60px 25px;
+    }
+
+    .process-box {
+        width: 100%;
+    }
+
+    .heading-area h1 {
+        font-size: 34px;
+    }
+
+    .desc {
+        font-size: 16px;
+    }
+
+    .process-box h3 {
+        font-size: 24px;
+    }
+
+    .process-box p {
+        font-size: 15px;
+    }
+
+    .credentials {
+        grid-template-columns: 1fr;
+    }
+}
+
+.mobileview {
+    display: none;
+}
+
+.laptopview {
+    display: block;
+}
+
+.perferspeak {
+    color: #000;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+@media(max-width:439px) {
+    .mobile {
+        font-size: 22px;
+        font-weight: 600;
+        color: #000;
+    }
+
+    .contact {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 35px;
+    }
+
+    .laptopview {
+        display: none;
+    }
+
+    .mobileview {
+        display: block;
+    }
+
+    .btn-orange {
+        background: #ea5f2c;
+        color: #fff;
+        /* padding: 18px 34px; */
+        font-weight: 600;
+        /* margin-right: 1%; */
+        width: 100%;
+        /* padding: 2% 5% 2% 5%; */
+        border-radius: 5px;
+    }
+
+    .heading-area h1 {
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 44px;
+        color: white;
+    }
+
+    .credentials {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        gap: 15px;
+        font-size: 16px;
+    }
+
+    .heading-area .desc {
+        color: #e6e8eb;
+        font-size: 16px;
+        line-height: 26px;
+        /* padding: 0% 0% 0% 0%; */
+    }
+
+    .paragraph {
+        color: #000;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36px;
+    }
+
+    .share {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36px;
+        color: #ea5f2c;
+    }
+
+    .heading-area .h1 {
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: -0.02em;
+        font-weight: 800;
+        max-width: 720px;
+    }
+
+    .perferspeak {
+        color: #000;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36px;
+    }
+
+    .mobilenumbers {
+        font-size: 22px;
+        line-height: 30px;
+        color: #000;
+    }
+
+    .mobilenumbers .bi {
+        font-size: 20px;
+        font-weight: 600;
+        color: #ea5f2c;
+    }
+
+}
+
+.required {
+    color: #ea5f2c;
+}
+
+/* Red border for invalid fields */
+.invalid-field {
+    border: 1px solid red !important;
+    box-shadow: 0 0 5px rgba(220, 53, 53, 0.3);
+}
+
+/* Normal input styling */
+input,
+select,
+textarea {
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+/* Error text */
+.error-message {
+    color: #dc3545;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+
+
+.nav-link{
+    font-size: 15px;
+}
+
+iframe{
+    border:2px solid #d26225 !important;
+    border-radius: 1%;
+    padding: 3%;
+    width: 300%;
+    height: 300px !important;
+}
+.contactmap{
+    background-color: #d8d0b92a;
+    padding: 4%;
+}
+
+.contactoff{
+    color: #d26225;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.tab-content{
+    padding-left: 4%;
+}

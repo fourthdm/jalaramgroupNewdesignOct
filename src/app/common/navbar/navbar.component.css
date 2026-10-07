@@ -1,0 +1,163 @@
+.btns {
+    color: white;
+    background-color: #F16F24;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 0 rgba(22, 30, 42, 0.04);
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.btns:hover {
+    cursor: pointer;
+    background: #D85F18;
+    color: #FFFFFF;
+    box-shadow: 0 1px 0 0 rgba(22, 30, 42, 0.04);
+}
+
+.nav-link {
+    color: #161E2A;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: #F16F24;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Phoneno {
+    color: #161E2A;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-right: 15px;
+}
+
+.Phoneno:hover {
+    color: #F16F24;
+}
+
+.navss {
+    line-height: 30px;
+    display: flex;
+    padding-bottom: 2px;
+}
+
+.navbardaikins {
+    border-bottom: 1px solid #DCE0E6;
+    background-color: #F8FAFC;
+}
+
+.daikin {
+    font-size: 12px;
+}
+
+.emailcontact {
+    font-size: 12px;
+    margin-left: 50rem;
+    /* float: right; */
+}
+
+.con {
+    margin-left: 1em;
+}
+
+.bi-telephone {
+    color: #F16F24;
+}
+
+/* 
+.active{
+    color: #F16F24;
+} */
+.active-link {
+    /* background-color: #5B4c75 !important; */
+    /* Active clicked color */
+    border-bottom: 2px solid #F16F24 !important;
+    /* border-left: 2px solid white; */
+}
+
+@media(max-width:439px) {
+    .navss {
+        line-height: 18px;
+        display: block !important;
+    }
+
+    .active-link {
+        /* background-color: #5B4c75 !important; */
+        /* Active clicked color */
+        border-bottom: none !important;
+        /* border-left: 2px solid white; */
+    }
+
+    .navbardaikins {
+        border-bottom: 1px solid #DCE0E6;
+    }
+
+    .daikin {
+        font-size: 11px;
+    }
+
+    .emailcontact {
+        font-size: 11px;
+        margin-left: 0 !important;
+        /* float: right; */
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+
+    .btns {
+        color: white;
+        background-color: #F16F24;
+        font-size: 14px;
+        padding: 10px;
+        border-radius: 4px;
+        box-shadow: 0 1px 0 0 rgba(22, 30, 42, 0.04);
+        line-height: 20px;
+        font-weight: 700;
+    }
+
+    .navss {
+        line-height: 28px;
+        display: flex;
+    }
+
+    .navbardaikins {
+        border-bottom: 1px solid #DCE0E6;
+        background-color: #F8FAFC;
+    }
+
+    .daikin {
+        font-size: 11px;
+    }
+
+    .emailcontact {
+        font-size: 11px;
+        margin-left: 40rem;
+        /* float: right; */
+    }
+
+    .nav-link {
+        color: #161E2A;
+        font-size: 12px;
+    }
+
+    .nav-link:hover {
+        color: #F16F24;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .emailcontact {
+        font-size: 11px;
+        margin-left: 10rem;
+        /* float: right; */
+    }
+
+}

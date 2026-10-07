@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'FontCustom';
+    src: url('/assets/font/Avenir Medium.ttf');
+}
+
+/* * {
+    font-family: 'FontCustom';
+} */
+
+.main {
+    /* background-color: rgba(22, 29, 39); */
+    /* background-color: #161d27; */
+    background-color: #181818;
+    /* background-color: rgb(3, 2, 1); */
+    
+    /* background-color: rgb(14, 10, 7); */
+    color: #FFFFFF;
+    padding: 0% 0% 0% 1%;
+}
+
+.footerlogo {
+    padding-right: 5%;
+}
+
+.Company {
+    margin-left: 5%;
+}
+
+.img {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+
+}
+
+li:hover {
+    font-weight: 700;
+}
+
+
+i {
+    color: rgb(241, 111, 36);
+}
+
+.headlineservice {
+
+    font-size: 18px;
+}
+
+.services {
+    margin: 2% 2% 2% 0%;
+
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.services:hover {
+    color: rgb(241, 111, 36);
+    cursor: pointer;
+}
+
+
+.footerlogo p {
+    font-size: 14px;
+}
+
+/* .footers {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 5px;
+} */
+.footers {
+    font-size: 14px;
+}
+
+.icons {
+    float: right;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 15px;
+}
+
+.icon {
+    padding: 15%;
+}
+
+.icon i {
+    font-size: 16px;
+    padding: 0.5em;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #dce0e6b4;
+    color: white;
+    text-align: center;
+}
+
+.icon i:hover {
+    color: rgb(241, 111, 36);
+}
+
+@media(max-width:439px) {
+    .Company {
+        margin-left: 0%;
+    }
+}
+
+a{
+    color: #FFFFFF;
+}
+
+.addresscontent {
+    font-size: 14px;
+    padding-left: 7px;
+    color: #e5e7eb;
+}
+
+.assessmentcontent {
+    font-size: 14px;
+    padding-left: 7px;
+    color: #e5e7eb;
+}
+
+.assessmentcontent:hover {
+    font-size: 14.5px;
+    font-weight: 400;
+    /* padding-left: 7px; */
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.imgs {
+    width: 100%;
+}
