@@ -66,7 +66,7 @@ a {
 
 .card-title {
 
-    color: #F16F24;
+    color: #ea5f2c;
     font-size: 23px;
 }
 
@@ -171,7 +171,7 @@ li {
 .counticons {
     width: 70px;
     height: 70px;
-    background-color: #F16F24;
+    background-color: #ea5f2c;
     border-radius: 50%;
 
     display: flex;
@@ -187,7 +187,7 @@ li {
 }   
 /* .counticons {
     border-radius: 50%;
-    background-color: #F16F24;
+    background-color: #ea5f2c;
     height: 70px;
     width: 70px;
     margin-left: 4.5em;
@@ -263,7 +263,7 @@ li {
     }
 
     .casestudy:hover {
-        color: #F16F24;
+        color: #ea5f2c;
         cursor: pointer;
     }
 
@@ -301,7 +301,7 @@ li {
     .mobilenumbers .bi {
         font-size: 20px;
         font-weight: 600;
-        color: #F16F24;
+        color: #ea5f2c;
     }
 }
 
@@ -314,7 +314,7 @@ li {
 
     /* .counticons {
         border-radius: 50%;
-        background-color: #F16F24;
+        background-color: #ea5f2c;
         height: 70px;
         width: 70px;
         margin-left: 2.5em;
@@ -325,7 +325,7 @@ li {
 
     /* .counticons {
         border-radius: 50%;
-        background-color: #F16F24;
+        background-color: #ea5f2c;
         height: 70px;
         width: 70px;
         margin-left: 2.5em;
@@ -357,7 +357,7 @@ li {
         width: 60%;
         /* height: 200px; */
         clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-        background-color: #F16F24;
+        background-color: #ea5f2c;
         /* background-color: rgba(243, 111, 33); */
         /* border-radius: 50%; */
         padding: 12%;
@@ -412,7 +412,7 @@ li {
     .mobilenumbers .bi {
         font-size: 20px;
         font-weight: 600;
-        color: #F16F24;
+        color: #ea5f2c;
     }
 }
 
@@ -427,7 +427,7 @@ li {
 }
 
 .btn-orange {
-    background: #F16F24;
+    background: #ea5f2c;
     color: #fff;
     /* padding: 18px 34px; */
     font-weight: 600;
@@ -638,7 +638,7 @@ li {
 }
 
 .fa-angles-right {
-    color: #F16F24;
+    color: #ea5f2c;
 }
 
 .whatwedo {
@@ -651,7 +651,7 @@ li {
 }
 
 .capability {
-    color: #F16F24;
+    color: #ea5f2c;
     font-size: 11px;
     font-weight: 500;
     line-height: 16px;
@@ -736,7 +736,7 @@ li {
 
 .icon {
     font-size: 25px;
-    color: #F16F24;
+    color: #ea5f2c;
     padding: 10% 0% 0% 25%;
 }
 
@@ -763,14 +763,14 @@ li {
     display: inline-block;
     width: 20px;
     height: 5px;
-    background: #F16F24;
+    background: #ea5f2c;
     margin-right: 10px;
     vertical-align: middle;
 }
 
 .whyicons {
     font-size: 20px;
-    color: #F16F24;
+    color: #ea5f2c;
     padding: 15% 10% 0% 28%;
 }
 
@@ -782,7 +782,7 @@ li {
 }
 
 .arrow:hover {
-    color: #F16F24;
+    color: #ea5f2c;
     transform: scale(1.1);
 }
 
@@ -801,11 +801,11 @@ li {
 }
 
 .heading-area .h1 .start {
-    color: #F16F24;
+    color: #ea5f2c;
 }
 
 .heading-area h1 span {
-    color: #F16F24;
+    color: #ea5f2c;
 }
 
 .assessmentcontent {
@@ -815,26 +815,26 @@ li {
 }
 
 .bi-shield-check {
-    color: #F16F24;
+    color: #ea5f2c;
 }
 
 .bi-clock {
-    color: #F16F24;
+    color: #ea5f2c;
 }
 
 .bi-star-fill {
-    color: #F16F24;
+    color: #ea5f2c;
     padding: 0.5%;
 }
 
 .quotes {
     float: right;
-    color: #F16F24;
+    color: #ea5f2c;
     font-size: 30px;
 }
 
 .speak {
-    color: #F16F24;
+    color: #ea5f2c;
     font-size: 11px;
     letter-spacing: 0.22em;
     line-height: 16px;
@@ -849,7 +849,7 @@ li {
 }
 
 .btn-oranges {
-    background: #F16F24;
+    background: #ea5f2c;
     color: #fff;
     /* padding: 18px 34px; */
     font-weight: 700;
@@ -899,7 +899,7 @@ li {
 }
 
 .btn-chat i {
-    color: #F16F24;
+    color: #ea5f2c;
 }
 
 .enquirybtn {
@@ -915,11 +915,11 @@ li {
 }
 
 .mobilenumbers:hover {
-    color: #F16F24;
+    color: #ea5f2c;
 }
 
 .bi-telephone {
-    color: #F16F24;
+    color: #ea5f2c;
 }
 
 .cardreview {
@@ -980,7 +980,7 @@ li {
 }
 
 .projectbtns:hover {
-    color: #F16F24;
+    color: #ea5f2c;
     cursor: pointer;
 }
 
@@ -1025,7 +1025,7 @@ li {
 }
 
 .challangelogo {
-    color: #F16F24;
+    color: #ea5f2c;
     font-size: 20px;
 }
 
@@ -1046,12 +1046,12 @@ li {
 }
 
 .casestudy:hover {
-    color: #F16F24;
+    color: #ea5f2c;
     cursor: pointer;
 }
 
 .explorecasestudy:hover {
-    color: #F16F24;
+    color: #ea5f2c;
     cursor: pointer;
 }
 
@@ -1071,7 +1071,7 @@ li {
 }
 
 .industry .bi {
-    color: #F16F24;
+    color: #ea5f2c;
 }
 
 .industries {
@@ -1101,7 +1101,7 @@ li {
 }
 
 .industrialtexts {
-    color: #F16F24;
+    color: #ea5f2c;
     font-size: 11px;
     font-weight: 500;
     line-height: 16px;
@@ -1123,7 +1123,7 @@ li {
     display: inline-block;
     width: 10px;
     height: 4px;
-    background: #F16F24;
+    background: #ea5f2c;
     margin-top: 10px;
     vertical-align: middle;
 }
@@ -1159,13 +1159,13 @@ li {
     display: inline-block;
     width: 30px;
     height: 2px;
-    background: #F16F24;
+    background: #ea5f2c;
     margin-right: 10px;
     vertical-align: middle;
 }
 
 .methology-title {
-    color: #F16F24;
+    color: #ea5f2c;
     font-size: 11px;
     line-height: 16px;
     letter-spacing: 0.22em;
@@ -1178,7 +1178,7 @@ li {
     width: 32px;
     height: 1px;
     /* background: #566073; */
-    background: #F16F24;
+    background: #ea5f2c;
     margin-right: 10px;
     vertical-align: middle;
 }
@@ -1205,11 +1205,11 @@ li {
 }
 
 .start {
-    color: #F16F24;
+    color: #ea5f2c;
 }
 
 .get-title {
-    color: #F16F24;
+    color: #ea5f2c;
     font-size: 11px;
     letter-spacing: 0.22em;
     font-weight: 500;
@@ -1223,7 +1223,7 @@ li {
     width: 32px;
     height: 1px;
     /* background: #566073; */
-    background: #F16F24;
+    background: #ea5f2c;
     margin-right: 10px;
     vertical-align: middle;
 }
@@ -1247,7 +1247,7 @@ li {
 }
 
 .heading-area h1 .h1headline {
-    color: #F16F24;
+    color: #ea5f2c;
 }
 
 .methodology-section .heading-area .desc {
@@ -1291,7 +1291,7 @@ li {
 
 
 .reviewheading-area h1 span {
-    color: #F16F24;
+    color: #ea5f2c;
 }
 
 .whychooseheading-area h1 {
@@ -1312,7 +1312,7 @@ li {
 }
 
 .whychooseheading-area h1 span {
-    color: #F16F24;
+    color: #ea5f2c;
 }
 
 .process-row {
@@ -1344,7 +1344,7 @@ li {
 .icon-box {
     width: 70px;
     height: 70px;
-    border: 1px solid #F16F24;
+    border: 1px solid #ea5f2c;
     position: relative;
     z-index: 2;
     /* important */
@@ -1357,7 +1357,7 @@ li {
 }
 
 .icon-box i {
-    color: #F16F24;
+    color: #ea5f2c;
     font-size: 28px;
     margin: 0;
     line-height: 1;
@@ -1367,7 +1367,7 @@ li {
     position: absolute;
     top: -10px;
     right: -10px;
-    background: #F16F24;
+    background: #ea5f2c;
     color: #fff;
     font-size: 12px;
     padding: 6px 8px;
@@ -1492,5 +1492,5 @@ li {
 
     width: 10px;
     height: 3px;
-    background: #F16F24;
+    background: #ea5f2c;
 }

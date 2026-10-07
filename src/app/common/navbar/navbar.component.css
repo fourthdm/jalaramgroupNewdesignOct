@@ -1,6 +1,6 @@
 .btns {
     color: white;
-    background-color: #F16F24;
+    background-color: #ea5f2c;
     font-size: 14px;
     padding: 10px;
     border-radius: 4px;
@@ -22,7 +22,7 @@
 }
 
 .nav-link:hover {
-    color: #F16F24;
+    color: #ea5f2c;
     font-size: 18px;
     font-weight: 500;
 }
@@ -36,7 +36,7 @@
 }
 
 .Phoneno:hover {
-    color: #F16F24;
+    color: #ea5f2c;
 }
 
 .navss {
@@ -65,17 +65,17 @@
 }
 
 .bi-telephone {
-    color: #F16F24;
+    color: #ea5f2c;
 }
 
 /* 
 .active{
-    color: #F16F24;
+    color: #ea5f2c;
 } */
 .active-link {
     /* background-color: #5B4c75 !important; */
     /* Active clicked color */
-    border-bottom: 2px solid #F16F24 !important;
+    border-bottom: 2px solid #ea5f2c !important;
     /* border-left: 2px solid white; */
 }
 
@@ -112,7 +112,7 @@
 
     .btns {
         color: white;
-        background-color: #F16F24;
+        background-color: #ea5f2c;
         font-size: 14px;
         padding: 10px;
         border-radius: 4px;
@@ -147,7 +147,7 @@
     }
 
     .nav-link:hover {
-        color: #F16F24;
+        color: #ea5f2c;
         font-size: 18px;
         font-weight: 500;
     }
