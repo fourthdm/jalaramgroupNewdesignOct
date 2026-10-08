@@ -52,8 +52,8 @@ export class HomeComponent {
 
               this.hasStarted = true;
 
-              this.startCounter(55000, 'count1', 1);
-              this.startCounter(975, 'count2', 10);
+              this.startCounter(35, 'count1', 1);
+              this.startCounter(40, 'count2', 10);
               this.startCounter(750, 'count3', 5);
               this.startCounter(5000, 'count4', 1);
 

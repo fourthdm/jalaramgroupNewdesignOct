@@ -263,7 +263,7 @@ li {
     }
 
     .casestudy:hover {
-        color: #ea5f2c;
+        color: #ea5f2c !important;
         cursor: pointer;
     }
 
@@ -1045,8 +1045,8 @@ li {
     letter-spacing: 0.02em;
 }
 
-.casestudy:hover {
-    color: #ea5f2c;
+.casestudy a :hover {
+    color: #ea5f2c !important;
     cursor: pointer;
 }
 
@@ -1074,11 +1074,10 @@ li {
     color: #ea5f2c;
 }
 
-.industries {
-    margin-top: 50%;
-    /* margin-top: -10%; */
-    z-index: 2;
-    padding: 5% 5% 0% 0%;
+.bodytext{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .industryname {
