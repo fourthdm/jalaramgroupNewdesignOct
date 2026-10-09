@@ -18,7 +18,7 @@
 }
 
 .aboutbackground {
-    background-color:rgb(31, 31, 31);
+    background-color: rgb(31, 31, 31);
     /* background-color: rgba(17, 24, 34); */
     padding: 7%;
 }
@@ -497,7 +497,16 @@ textarea {
     line-height: 36px;
 }
 
-@media(max-width:439px) {
+@media only screen and (min-width: 390px) and (max-width:765px) {
+
+    iframe {
+        border: 2px solid #d26225 !important;
+        border-radius: 1%;
+        padding: 3%;
+        width: 100% !important;
+        height: 300px !important;
+    }
+
     .mobile {
         font-size: 22px;
         font-weight: 600;
@@ -620,28 +629,40 @@ textarea {
 
 
 
-.nav-link{
+.nav-link {
     font-size: 15px;
 }
 
-iframe{
-    border:2px solid #d26225 !important;
+iframe {
+    border: 2px solid #d26225 !important;
     border-radius: 1%;
     padding: 3%;
     width: 300%;
     height: 300px !important;
 }
-.contactmap{
+
+.contactmap {
     background-color: #d8d0b92a;
     padding: 4%;
 }
 
-.contactoff{
+.contactoff {
     color: #d26225;
     font-size: 35px;
     font-weight: 700;
 }
 
-.tab-content{
+.tab-content {
     padding-left: 4%;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+
+    iframe {
+        border: 2px solid #d26225 !important;
+        border-radius: 1%;
+        padding: 3%;
+        width: 200%;
+        height: 300px !important;
+    }
 }

@@ -68,6 +68,19 @@
                             <br>
                         </div>
 
+                        <div class="col-md-10 text-center mt-3">
+                            <re-captcha siteKey="6LcCTkksAAAAACa3lYNfmkJQDryy8v295FgstIuk"
+                                (resolved)="onCaptchaResolved($event)">
+                            </re-captcha>
+                        </div>
+
+                        <!-- <div class="col-md-10 text-center mt-4">
+                            <button class="btn btn-success btn-lg" >
+                                Submit Now
+                            </button>
+                        </div> -->
+
+
                     </div>
                     <br>
 
@@ -76,7 +89,8 @@
                     <br><br>
                     <div class="laptopview">
                         <div class="d-flex">
-                            <button class="btn btn-orange" type="submit"><b style="font-size: 16px;"> Send Enquiry</b>
+                            <button class="btn btn-orange" type="submit" [disabled]="!captchaVerified"><b
+                                    style="font-size: 16px;"> Send Enquiry</b>
                                 <i class="bi bi-arrow-right enquirybtn"></i></button>
                             <!-- <button class="btn-orange" type="submit" value="Send">
                                 Send Enquiry <i class="bi bi-arrow-right enquirybtn"></i></button> -->
@@ -89,7 +103,7 @@
                     </div>
 
                     <div class="mobileview">
-                        <button class="btn-orange" type="submit">
+                        <button class="btn-orange" type="submit" [disabled]="!captchaVerified">
                             <span class="text-start">
                                 Send Enquiry
                             </span> <i class="bi bi-arrow-right enquirybtn"></i>
@@ -117,7 +131,7 @@
                 <span class="perferspeak">Perfer to<span class="share"> speak directly?</span> </span>
             </div>
 
-            <p class="para">Available Monday to Saturday, 9 AM - 7 PM IST.</p>
+            <p class="para">Available Monday to Saturday, 9 AM - 9 PM IST.</p>
             <br>
             <div class="card">
                 <div class="card-body">
@@ -329,7 +343,7 @@
                                 <a href="tel:+918010089172" class="mobilenumbers"><i class="bi bi-telephone"></i>
                                     +91 80100 89172</a>
                                 <br>
-                                <span class="times">Mon-Sat 9:00 AM - 7:00 PM IST</span>
+                                <span class="times">Mon-Sat 9:00 AM - 9:00 PM IST</span>
                                 <br><br>
                                 <p class="btn-oranges">
                                     <span class="text-start" (click)="scrollToSection('Contactus')">

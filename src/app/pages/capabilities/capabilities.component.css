@@ -687,8 +687,6 @@ img{
 @media(max-width:439px) {
 
     .heading-area .desc {
-        /* color: #FFFFFF; */
-        color: #000;
         font-size: 16px;
         line-height: 26px;
         /* padding: 0% 25% 0% 0%; */
@@ -699,8 +697,6 @@ img{
         font-size: 36px;
         font-weight: 800;
         line-height: 44px;
-        color: #161E2A;
-        /* color: #FFFFFF; */
         letter-spacing: -0.02em;
     }
 
@@ -732,7 +728,7 @@ img{
         font-size: 28px;
         font-weight: 700;
         line-height: 36px;
-        color: #161E2A;
+       
         max-width: 720px;
     }
 

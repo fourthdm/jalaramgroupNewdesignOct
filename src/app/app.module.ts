@@ -13,6 +13,8 @@ import { ServiceComponent } from './pages/service/service.component';
 import { CapabilitiesComponent } from './pages/capabilities/capabilities.component';
 import { SliderComponent } from './pages/slider/slider.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { RecaptchaModule } from 'ng-recaptcha';
+// import { RecaptchaModule } from 'ng-recaptcha/lib/recaptcha.module';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    RecaptchaModule
   ],
   providers: [],
   bootstrap: [AppComponent]
