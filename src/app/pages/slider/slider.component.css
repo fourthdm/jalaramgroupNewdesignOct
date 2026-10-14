@@ -274,12 +274,9 @@
         left: 8%;
         right: 8%;
         z-index: 10;
-        /* color: #fff; */
-        color: #161E2A;
     }
 
     .desc {
-        color: #161E2A;
         /* color: #FFFFFF; */
         font-size: 16px;
         line-height: 26px;

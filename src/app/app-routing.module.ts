@@ -8,7 +8,7 @@ import { ProductComponent } from './pages/product/product.component';
 import { CapabilitiesComponent } from './pages/capabilities/capabilities.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/Home', pathMatch: 'full' },
+  { path: '',component:HomeComponent, pathMatch: 'full' },
   { path: 'Home', component: HomeComponent, title: '' },
   { path: 'About', component: AboutComponent, title: '' },
   { path: 'Projects', component: ServiceComponent, title: '' },

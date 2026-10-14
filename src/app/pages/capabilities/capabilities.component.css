@@ -488,6 +488,23 @@ img{
     background-color: #FFFFFF;
 }
 
+.capability5 {
+    padding: 5%;
+}
+
+.capability5 .cardcapability {
+    background-color: #FFFFFF;
+}
+
+.capability6 {
+    padding: 5%;
+    background-color: #F4F5F7;
+}
+
+.capability6 .cardcapability {
+    background-color: #FFFFFF;
+}
+
 .titlecapability {
     color: #ea5f2c;
     font-size: 11px;

@@ -1,4 +1,3 @@
-
 .aboutbackground {
     background: linear-gradient(rgba(0, 0, 0, 0.62),
             rgba(0, 0, 0, 0.62)),
@@ -170,20 +169,181 @@ img {
 }
 
 
-.maintext{
+.maintext {
     font-size: 40px;
     font-weight: 600;
     line-height: 48px;
     color: #ea5f2c;
 }
 
-.card{
+.card {
     border: 1px solid #ea5f2c;
 }
 
-.productname{
+.productname {
     font-size: 18px;
     font-weight: 500;
     color: black;
     text-align: center;
+}
+
+
+
+
+.lastcontactsection {
+    background-color: #1f1f1f;
+    padding: 5%;
+}
+
+.lastcontactsection .medium-title {
+    color: #ea5f2c;
+}
+
+.lastcontactsection .last-title {
+    color: #ea5f2c;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+
+}
+
+.last-title span {
+    width: 32px;
+    height: 1px;
+    background: #ea5f2c;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.lastheading-area .h1 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    max-width: 720px;
+}
+
+.lastheading-area .desc {
+    font-size: 16px;
+    line-height: 26px;
+    color: #A8AEB8;
+}
+
+.plan {
+    color: white;
+}
+
+.start {
+    color: #ea5f2c;
+}
+
+.speak {
+    color: #ea5f2c;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.22em;
+    font-weight: 500;
+
+}
+
+.assessmentcontent {
+    /* color: #eeeff0; */
+    color: #A8AEB8;
+    font-size: 16px;
+    padding-left: 7px;
+    line-height: 26px;
+}
+
+.bi-shield-check {
+    color: #ea5f2c;
+}
+
+.bi-clock {
+    color: #ea5f2c;
+}
+
+.btn-chats {
+    line-height: 20px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid #A8AEB8;
+    background-color: #FFFFFF;
+    padding: 3% 5% 3% 5%;
+}
+
+.btn-chats a {
+    color: #161E2A;
+    font-weight: 500;
+}
+
+.btn-chats:hover {
+    border: 1px solid #161E2A;
+    background-color: #f8f9fa;
+}
+
+.enquirybtn {
+    float: right;
+    color: white;
+    font-size: 14px;
+}
+
+.btn-oranges {
+    background: #ea5f2c;
+    color: #fff;
+    /* padding: 18px 34px; */
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 20px;
+    /* margin-right: 1%; */
+    width: 100%;
+    padding: 3% 5% 3% 5%;
+    border-radius: 0%;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-oranges:hover {
+    background: #D85F18;
+    color: #FFFFFF;
+    line-height: 20px;
+    cursor: pointer;
+    box-shadow: 0 1px 0 0 rgba(22, 30, 42, 0.04);
+}
+
+.btn-oranges .text-start {
+    font-size: 14px;
+    letter-spacing: 0.02em;
+}
+
+.bi-chat {
+    color: #ea5f2c;
+}
+
+.mobilenumbers {
+    font-size: 28px;
+    font-weight: 600;
+    color: #000;
+}
+
+.mobilenumbers:hover {
+    color: #ea5f2c;
+}
+
+.mobilenumbers .bi {
+    font-size: 28px;
+    font-weight: 600;
+    color: #ea5f2c;
+}
+
+
+@media only screen and (min-width: 316px) and (max-width:550px) {
+
+    .heading-area h1 {
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 42px;
+        letter-spacing: -0.02em;
+        max-width: 780px;
+    }
 }

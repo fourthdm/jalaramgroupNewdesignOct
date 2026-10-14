@@ -16,44 +16,46 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 " (click)="closeNavbar()">
                 <li class="nav-item">
-                    <a class="nav-link" routerLinkActive="active-link"
-                        [routerLinkActiveOptions]="{ exact: true }"  [routerLink]="['/Home']" aria-current="page" href="">Home</a>
+                    <a class="nav-link" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }"
+                        [routerLink]="['/Home']" aria-current="page" href="" aria-label="Read more">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="" routerLinkActive="active-link"
-                        [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/About']" (click)="scroll()">About
+                        [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/About']" (click)="scroll()"
+                        aria-label="Read more">About
                         Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="" routerLinkActive="active-link"
-                        [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/Product']"
-                        (click)="scroll()">Products</a>
+                        [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/Product']" (click)="scroll()"
+                        aria-label="Read more">Products</a>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link" href="" routerLinkActive="active-link"
-                        [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/Projects']"
-                        (click)="scroll()">Projects </a>
+                        [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/Projects']" (click)="scroll()"
+                        aria-label="Read more">Projects </a>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link" href="" routerLinkActive="active-link"
-                        [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/Capabilities']"
-                        (click)="scroll()">Capabilities</a>
+                        [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/Capabilities']" (click)="scroll()"
+                        aria-label="Read more">Capabilities</a>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link" href="" routerLinkActive="active-link"
-                        [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/Contact']"
-                        (click)="scroll()">Contact</a>
+                        [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/Contact']" (click)="scroll()"
+                        aria-label="Read more">Contact</a>
                 </li>
 
             </ul>
-            <form class="d-flex" >
+            <form class="d-flex">
                 <span class="Phoneno">
-                    <a href="tel:+918010089172" class="Phoneno"><i class="bi bi-telephone"></i> +91 80100 89172 </a>
+                    <a href="tel:+918010089172" class="Phoneno"  aria-label="Read more"><i class="bi bi-telephone"></i> +91 80100 89172 </a>
                 </span>
-                <span class="btns btn-lg" [routerLink]="['/Contact']" fragment="Contactus"> Get in Touch<i class="bi bi-chevron-right"></i> </span>
+                <span class="btns btn-lg" [routerLink]="['/Contact']" fragment="Contactus"> Get in Touch<i
+                        class="bi bi-chevron-right"></i> </span>
             </form>
         </div>
     </div>

@@ -420,7 +420,7 @@
     font-weight: 700;
     line-height: 20px;
     letter-spacing: 0.02em;
-    color: #fff;
+    color: #000;
 }
 
 .certificate:hover {
@@ -434,7 +434,7 @@
 
 .lastcontact {
     padding: 5%;
-    background-color: #111822;
+    background-color: #1f1f1f;
     /* background-color: rgba(17, 24, 34); */
     color: white;
 }
@@ -540,7 +540,7 @@
 
 
 .methodology-section {
-    background: #0b1725;
+    background: #1f1f1f;
     padding: 80px 70px;
     /* color: #fff; */
     /* min-height: 100vh; */
@@ -700,7 +700,7 @@
     position: relative;
     z-index: 2;
     /* important */
-    background: #0b1725;
+    background: #181818;
     /* hide line behind */
     display: flex;
     align-items: center;
